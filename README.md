@@ -1,2 +1,27 @@
 # book-recommendation-system
 
+# How to rum?
+
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/d-v-88/book-recommendation-system.git
+```
+
+### STEP 01 - Create a conda environment afteropening the repository
+
+```bash
+conda create -n books python=3.7.10 -y
+```
+
+```bash
+conda activate books
+```
+
+### STEP 02- Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
