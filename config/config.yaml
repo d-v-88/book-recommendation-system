@@ -19,3 +19,11 @@ data_ingestion_config:
   # Here i have used modular coding again if i need to chnage any thing in the future
 
   # so the raw data is created in that we have the zip file and then the zip file is extracted in placed inside the ingested folder. So th efirst data ingestion is done
+
+  ##--------------------- DATA VALIDATION -----------------------------##
+  ## so i want these all things so i have updated it
+data_validation_config:
+  clean_data_dir: clean_data
+  serialized_objects_dir: serialized_objects
+  books_csv_file: BX-Books.csv
+  ratings_csv_file: BX-Book-Ratings.csv

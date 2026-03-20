@@ -1,5 +1,15 @@
 # book-recommendation-system
 
+## Workflow for code update
+
+- config.yaml
+- entity
+- config/configuration.py
+- components
+- pipline
+- main.py
+- app.py
+
 # How to rum?
 
 ### STEPS:
