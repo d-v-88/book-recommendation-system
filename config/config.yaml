@@ -1,0 +1,21 @@
+artifacts_config:
+  artifacts_dir: artifacts
+
+data_ingestion_config:
+  # This is my data ingestion as an input and i have stored the data in a github folder and extracted from there.
+
+  #so this is the input thats a zip file and then what will the output be 3 files those are unzipped files and that will be stored in the artifacts
+
+  # then in the artifacts i will create 3 files dataset, ingested data and raw data
+
+  # In the dataset the csv files will be stored
+  # In ingested data
+  # In raw data it will download the zip file
+  dataset_download_url: https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
+
+  # Here i have used modular coding again if i need to chnage any thing in the future
+
+  # so the raw data is created in that we have the zip file and then the zip file is extracted in placed inside the ingested folder. So th efirst data ingestion is done

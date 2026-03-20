@@ -17,7 +17,7 @@ setup(
     description="A small local packages for ML based books recommendations",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/entbappy/ML-Based-Book-Recommender-System",
+    url="https://github.com/d-v-88/book-recommendation-system",
     author_email="dhitivarma2004gmail.com",
     packages=find_packages(),
     license="MIT",
