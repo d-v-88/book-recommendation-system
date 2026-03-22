@@ -41,3 +41,9 @@ OR
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+New run,
+
+```bash
+streamlit run app.py
+```
