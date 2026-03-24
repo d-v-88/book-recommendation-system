@@ -61,7 +61,7 @@ sudo apt-get update -y
 
 sudo apt-get upgrade
 
-#Install Docker
+# Install Docker
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
@@ -105,13 +105,13 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest
+docker push d-v-88/bookapp:latest
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi d-v-88/bookapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull d-v-88/bookapp
 ```
