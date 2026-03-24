@@ -1,13 +1,81 @@
-# book-recommendation-system
+# book-recommendation-system (ML + AWS Deployment)
+## Live Demo
+
+👉 http://44.211.254.254:8501/
+
+## Problem Statement
+
+Finding relevant books is difficult due to the vast number of options available.
+This project builds a machine learning-based recommendation system to suggest books based on user preferences.
+
+## Solution
+
+Developed a recommendation engine that suggests similar books using:
+
+Collaborative Filtering
+
+Nearest neighbors
+
+## Tech Stack
+Python
+
+Pandas,
+
+NumPy,
+
+Scikit-learn
+
+Streamlit
+
+Docker
+
+AWS (EC2 deployment)
+
+## System Architecture
+Data preprocessing
+
+Model training
+
+Similarity computation
+
+API / Streamlit interface
+
+Docker containerization
+
+Deployment on AWS EC2
+
+## Features
+🔍 Search for a book
+
+📖 Get similar recommendations
+
+⚡ Fast response using precomputed similarity
+
+🌐 Live deployed application
+
+## AWS Deployment Steps
+Launched EC2 instance
+
+Installed Docker
+
+Built and ran container
+
+Exposed port 8501
 
 ## Workflow for code update
 
 - config.yaml
+  
 - entity
+  
 - config/configuration.py
+  
 - components
+  
 - pipline
+  
 - main.py
+  
 - app.py
 
 # How to rum?
@@ -115,3 +183,16 @@ docker rmi d-v-88/bookapp:latest
 ```bash
 docker pull d-v-88/bookapp
 ```
+
+## Future Improvements
+
+User login system
+
+Personalized recommendations
+
+Hybrid recommendation system
+
+Frontend using React
+
+## Author
+Dhiti Varma
